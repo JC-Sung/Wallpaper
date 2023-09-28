@@ -1,0 +1,84 @@
+{
+    "types": [
+        {
+            "name": "受欢迎的",
+            "type": "popular",
+            "source": ""
+        },
+        {
+            "name": "用户分享",
+            "type": "",
+            "source": "shareByUser"
+        },
+        {
+            "name": "应用",
+            "type": "app",
+            "source": ""
+        },
+        {
+            "name": "新闻",
+            "type": "news",
+            "source": ""
+        },
+        {
+            "name": "音乐视频",
+            "type": "music",
+            "source": ""
+        },
+        {
+            "name": "图片",
+            "type": "photos",
+            "source": ""
+        },
+        {
+            "name": "购物与团购",
+            "type": "shopping",
+            "source": ""
+        },
+        {
+            "name": "社交以博客",
+            "type": "social",
+            "source": ""
+        },
+        {
+            "name": "体育与旅行",
+            "type": "sports",
+            "source": ""
+        },
+        {
+            "name": "生活方式",
+            "type": "life",
+            "source": ""
+        },
+        {
+            "name": "游戏与娱乐",
+            "type": "games",
+            "source": ""
+        },
+        {
+            "name": "教育与招聘",
+            "type": "education",
+            "source": ""
+        },
+        {
+            "name": "数码科技",
+            "type": "tech",
+            "source": ""
+        },
+        {
+            "name": "金融",
+            "type": "finance",
+            "source": ""
+        },
+        {
+            "name": "阅读",
+            "type": "read",
+            "source": ""
+        },
+        {
+            "name": "其他",
+            "type": "others",
+            "source": ""
+        }
+    ]
+}

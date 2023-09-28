@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="KkA-YY-k6I" customClass="WebsiteCollectionViewCell" customModule="Wallpaper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="333"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="aME-Xy-ys5">
+                <rect key="frame" x="0.0" y="0.0" width="423" height="333"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hWn-pc-Tb2">
+                        <rect key="frame" x="16" y="20" width="391" height="297"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支持Chrome扩展插件的手机浏览器" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4O-Qn-a12">
+                                <rect key="frame" x="16" y="56" width="359" height="15.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="狐猴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6r-Xt-25w">
+                                <rect key="frame" x="84" y="8" width="291" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnH-ll-FNY">
+                                <rect key="frame" x="340" y="261" width="43" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0bm-9O-lPe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="添加">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addAction:" destination="KkA-YY-k6I" eventType="touchUpInside" id="UQh-5d-kS5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l6r-Xt-25w" firstAttribute="leading" secondItem="hWn-pc-Tb2" secondAttribute="leading" constant="84" id="FXr-N9-gp7"/>
+                            <constraint firstAttribute="bottom" secondItem="YnH-ll-FNY" secondAttribute="bottom" constant="16" id="JcS-E4-hZl"/>
+                            <constraint firstItem="w4O-Qn-a12" firstAttribute="top" secondItem="hWn-pc-Tb2" secondAttribute="top" constant="56" id="S7G-8b-qZs"/>
+                            <constraint firstAttribute="trailing" secondItem="YnH-ll-FNY" secondAttribute="trailing" constant="8" id="SZs-zj-4cF"/>
+                            <constraint firstItem="w4O-Qn-a12" firstAttribute="leading" secondItem="hWn-pc-Tb2" secondAttribute="leading" constant="16" id="SvS-ZA-5fT"/>
+                            <constraint firstAttribute="trailing" secondItem="l6r-Xt-25w" secondAttribute="trailing" constant="16" id="epX-WV-sTf"/>
+                            <constraint firstAttribute="trailing" secondItem="w4O-Qn-a12" secondAttribute="trailing" constant="16" id="mo9-tH-EiG"/>
+                            <constraint firstItem="l6r-Xt-25w" firstAttribute="top" secondItem="hWn-pc-Tb2" secondAttribute="top" constant="8" id="uui-4h-boV"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xx8-Qk-cCS">
+                        <rect key="frame" x="32" y="0.0" width="60" height="60"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vja-cd-MXy">
+                                <rect key="frame" x="6" y="6" width="48" height="48"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="TuW-Ha-rJb"/>
+                            <constraint firstAttribute="width" constant="60" id="W7C-zh-pPi"/>
+                            <constraint firstItem="Vja-cd-MXy" firstAttribute="leading" secondItem="xx8-Qk-cCS" secondAttribute="leading" constant="6" id="WBm-ON-l1D"/>
+                            <constraint firstItem="Vja-cd-MXy" firstAttribute="top" secondItem="xx8-Qk-cCS" secondAttribute="top" constant="6" id="XRu-qG-dTJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Vja-cd-MXy" secondAttribute="bottom" constant="6" id="cOo-OE-xuV"/>
+                            <constraint firstAttribute="trailing" secondItem="Vja-cd-MXy" secondAttribute="trailing" constant="6" id="kLx-mi-tbJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="hWn-pc-Tb2" secondAttribute="trailing" constant="16" id="0kf-cg-QKr"/>
+                    <constraint firstAttribute="bottom" secondItem="hWn-pc-Tb2" secondAttribute="bottom" constant="16" id="2fA-bf-f93"/>
+                    <constraint firstItem="hWn-pc-Tb2" firstAttribute="leading" secondItem="aME-Xy-ys5" secondAttribute="leading" constant="16" id="3EQ-c6-5gn"/>
+                    <constraint firstItem="xx8-Qk-cCS" firstAttribute="top" secondItem="aME-Xy-ys5" secondAttribute="top" id="N5W-e1-sjw"/>
+                    <constraint firstItem="xx8-Qk-cCS" firstAttribute="leading" secondItem="aME-Xy-ys5" secondAttribute="leading" constant="32" id="TIW-s6-ljl"/>
+                    <constraint firstItem="hWn-pc-Tb2" firstAttribute="top" secondItem="aME-Xy-ys5" secondAttribute="top" constant="20" id="gJj-2K-GXp"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="423" height="333"/>
+            <connections>
+                <outlet property="V" destination="hWn-pc-Tb2" id="Mzw-lJ-mvs"/>
+                <outlet property="addBtn" destination="YnH-ll-FNY" id="eJO-0c-m4M"/>
+                <outlet property="desc" destination="w4O-Qn-a12" id="G6v-ff-eqM"/>
+                <outlet property="icon" destination="Vja-cd-MXy" id="EVC-JV-ZTV"/>
+                <outlet property="iconV" destination="xx8-Qk-cCS" id="rEZ-V7-t6m"/>
+                <outlet property="name" destination="l6r-Xt-25w" id="gpe-h2-Lbs"/>
+            </connections>
+            <point key="canvasLocation" x="652.67175572519079" y="178.52112676056339"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
