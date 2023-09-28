@@ -1,53 +1,30 @@
 # Wallpaper
 全球精品壁纸，超高清壁纸，Unsplash等著名壁纸
 
-## 更新
-
-### 2023-05-11
-* 1、支持横屏后可以上下滑动切换视频
-* 2、支持手势放大缩小后清屏显示
-* 3、双击和单击手势点击优化，解决冲突问题
-
-### 2023-03-30：
-* 1、移除腾讯云播放器，使用[ZFPlayer](https://github.com/renzifeng/ZFPlayer)（腾讯云播放器需要认证，不能免费使用了）
-* 2、上下滑动切换修改为我新封装的一个库[GKVideoScrollView](https://github.com/QuintGao/GKVideoScrollView)
-* 3、视频数据修改为[好看视频](https://haokan.baidu.com/) 网页端数据，仅供学习使用，请勿用作商业用途
-* 4、个人详情页优化，手势缩放动画优化
-* 5、支持全屏观看视频
-
 ## 效果图
-![抖音-列表](https://upload-images.jianshu.io/upload_images/1598505-1a3cacbdf910797a.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ad/e2/b7/ade2b717-0370-681e-5184-d5f0c8c59988/34a30eac-5081-4205-86a3-837010894e4e_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-26_at_16.56.22.png/1290x2796bb.png)
 
-![抖音-带tabbar](https://upload-images.jianshu.io/upload_images/1598505-483a4e77d398f52b.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/79/d5/44/79d54432-fc51-6296-6000-b69add38f9aa/ac29795c-ad39-49c4-95e1-6f340c3c6d26_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2023-09-28_at_14.20.48.png/1290x2796bb.png)
 
-![抖音-评论](https://upload-images.jianshu.io/upload_images/1598505-4e4ee5d8221a59a6.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/6e/7d/f0/6e7df0d4-d8d9-3d6a-30c0-13f7d71a80c7/340829b3-6b68-49d4-bb18-d84dc46526b2_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-22_at_16.12.03.png/1290x2796bb.png)
 
-![抖音-动画](https://upload-images.jianshu.io/upload_images/1598505-3a101f2e25fa2005.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/75/ef/a5/75efa5c6-349e-1fa4-bd3a-f56eb4aa1857/954b3cc0-e252-49f2-82a8-957412a971de_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-22_at_16.12.15.png/1290x2796bb.png)
 
-![抖音-数据加载](https://upload-images.jianshu.io/upload_images/1598505-4ac8d3255e199ff5.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/13/2f/fd/132ffd30-2d84-76ad-3898-4437530cce01/43f1d696-a2b3-42f0-9de6-ee56c40a53f0_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-22_at_16.12.44.png/1290x2796bb.png)
 
-![抖音-视频加载](https://upload-images.jianshu.io/upload_images/1598505-7214296ddc1aa923.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ee/2a/c7/ee2ac79c-19e8-4277-c6e6-971c8cd2f311/af0d7caf-19c4-4a5b-96d7-c01dc48ec54e_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-22_at_16.13.04.png/1290x2796bb.png)
 
-![抖音-红心点赞](https://upload-images.jianshu.io/upload_images/1598505-b89f26ae20c357c0.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/a9/ad/97/a9ad9794-0faf-1f8b-9dfd-dc54d8940eda/b3a58779-f24c-46d7-abe8-a6963d196e34_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-26_at_16.56.33.png/1290x2796bb.png)
 
-![抖音-双击点赞](https://upload-images.jianshu.io/upload_images/1598505-ff4845163a16e9c9.gif?imageMogr2/auto-orient/strip)
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/2a/33/9b/2a339bd3-e1f1-67a2-47a7-f12875fce739/8d87e283-26b9-48fd-acd8-b93d2c107998_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2023-09-28_at_14.20.29.png/1290x2796bb.png)
 
-## 说明
+![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/02/37/c8/0237c837-8ed1-7987-3098-96136c444200/2157dec9-4243-4ce3-bcdf-e3920dc25334_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2023-09-28_at_13.14.14.png/1290x2796bb.png)
 
-[iOS仿抖音—左右滑动切换效果](https://www.jianshu.com/p/9c3670e4a533)
-
-[iOS仿抖音—上下滑动播放视频](https://www.jianshu.com/p/36a4e57f1a53)
-
-[iOS仿抖音—评论视图滑动消失](https://www.jianshu.com/p/8a1f174a91e5)
-
-[iOS仿抖音—加载、点赞动画效果](https://www.jianshu.com/p/a5f08098efb0)
+## 特别说明：此项目不能用于任何商业，造成的侵权由实际使用者承担，此项目仅供学习
 
 ## 作者
 
-- QQ： [1094887059](http://wpa.qq.com/msgrd?v=3&uin=1094887059&site=qq&menu=yes)  
-- QQ群：[1047100313](https://qm.qq.com/cgi-bin/qm/qr?k=Aj_f4C5-R3X1_KEdeb_Ttg8pxK_41ZJu&jump_from=webapi)
-
-- [简书](https://www.jianshu.com/u/ba61bbfc87e8)
+- QQ： [2439194386]
 
 - 支持作者
 
