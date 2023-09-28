@@ -3,10 +3,6 @@
 
 ## 效果图
 
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ad/e2/b7/ade2b717-0370-681e-5184-d5f0c8c59988/34a30eac-5081-4205-86a3-837010894e4e_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-26_at_16.56.22.png/1290x2796bb.png" width="90" height="160">
-&nbsp&nbsp
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/79/d5/44/79d54432-fc51-6296-6000-b69add38f9aa/ac29795c-ad39-49c4-95e1-6f340c3c6d26_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2023-09-28_at_14.20.48.png/1290x2796bb.png" width="90" height="160">
-
 ![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/ad/e2/b7/ade2b717-0370-681e-5184-d5f0c8c59988/34a30eac-5081-4205-86a3-837010894e4e_Simulator_Screen_Shot_-_iPhone_14_Pro_Max_-_2023-09-26_at_16.56.22.png/1290x2796bb.png)
 
 ![首页](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/79/d5/44/79d54432-fc51-6296-6000-b69add38f9aa/ac29795c-ad39-49c4-95e1-6f340c3c6d26_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2023-09-28_at_14.20.48.png/1290x2796bb.png)
