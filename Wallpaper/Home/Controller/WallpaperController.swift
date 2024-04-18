@@ -12,6 +12,7 @@ import SwiftyJSON
 import Kingfisher
 import Lantern
 import ParallaxHeader
+import WidgetKit
 
 class WallpaperController: UICollectionViewController {
 
@@ -43,6 +44,19 @@ class WallpaperController: UICollectionViewController {
         //self.collectionView.contentInsetAdjustmentBehavior = .never
         self.collectionView.register(UINib(nibName: "WallpaperCell", bundle: nil), forCellWithReuseIdentifier: "WallpaperCell")
         self.getWallpapers()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        WidgetCenter.shared.reloadAllTimelines()
+        WallpaperPosterData.getTodayPoster {
+            switch $0 {
+            case .success(let posters):
+                print(posters)
+            case .failure(_):
+                print([WallpaperPosterData.placeholderPoster()])
+            }
+        }
     }
     
     @IBAction func refreshAction(_ sender: UIBarButtonItem) {

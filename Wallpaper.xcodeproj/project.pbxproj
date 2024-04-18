@@ -18,9 +18,24 @@
 		140C316D2AB85020002FBBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140C316B2AB85020002FBBA1 /* LaunchScreen.storyboard */; };
 		140C31962AB85B6B002FBBA1 /* WallpaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140C31952AB85B6B002FBBA1 /* WallpaperCell.swift */; };
 		140C31982AB85B97002FBBA1 /* WallpaperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140C31972AB85B97002FBBA1 /* WallpaperCell.xib */; };
+		1410D1F72BA2E04000009C27 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1410D1F62BA2E04000009C27 /* WidgetKit.framework */; };
+		1410D1F92BA2E04100009C27 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1410D1F82BA2E04100009C27 /* SwiftUI.framework */; };
+		1410D1FC2BA2E04100009C27 /* LetvPosterBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410D1FB2BA2E04100009C27 /* LetvPosterBundle.swift */; };
+		1410D1FE2BA2E04100009C27 /* LetvPoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410D1FD2BA2E04100009C27 /* LetvPoster.swift */; };
+		1410D2002BA2E04B00009C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1410D1FF2BA2E04B00009C27 /* Assets.xcassets */; };
+		1410D2042BA2E04B00009C27 /* LetvPosterExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1410D1F52BA2E04000009C27 /* LetvPosterExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		14128CEF2AC54D100079EF86 /* UIButton+LargeClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14128CEE2AC54D100079EF86 /* UIButton+LargeClick.swift */; };
 		141B405C2AC40E6E00789A9A /* HomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141B405B2AC40E6E00789A9A /* HomeCollectionView.swift */; };
 		141B405E2AC421D000789A9A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141B405D2AC421D000789A9A /* WebViewController.swift */; };
+		146285242BA3E3990088F08A /* WallpaperPosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146285232BA3E3990088F08A /* WallpaperPosterData.swift */; };
+		146285282BA3EBED0088F08A /* Date+Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E379D2AB94F53005E88C6 /* Date+Help.swift */; };
+		146285292BA3EBF80088F08A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BDBFEA2ABA898C0054D8D7 /* Api.swift */; };
+		1462852A2BA3EC010088F08A /* RequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E37952AB94A56005E88C6 /* RequestTool.swift */; };
+		1462852C2BA3ED850088F08A /* WallpaperWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462852B2BA3ED850088F08A /* WallpaperWidgetView.swift */; };
+		1462852E2BA3F37B0088F08A /* WallpaperPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462852D2BA3F37B0088F08A /* WallpaperPostModel.swift */; };
+		1462852F2BA3F9170088F08A /* WallpaperPosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146285232BA3E3990088F08A /* WallpaperPosterData.swift */; };
+		146285302BA3F9820088F08A /* WallpaperPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462852D2BA3F37B0088F08A /* WallpaperPostModel.swift */; };
+		146285312BA400290088F08A /* ImageDownloadTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E37972AB94D54005E88C6 /* ImageDownloadTool.swift */; };
 		148E37962AB94A56005E88C6 /* RequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E37952AB94A56005E88C6 /* RequestTool.swift */; };
 		148E37982AB94D54005E88C6 /* ImageDownloadTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E37972AB94D54005E88C6 /* ImageDownloadTool.swift */; };
 		148E379A2AB94E40005E88C6 /* PhotoSaveTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E37992AB94E40005E88C6 /* PhotoSaveTool.swift */; };
@@ -53,8 +68,33 @@
 		14F370CD2ABD6AE50036DD15 /* RawImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F370CC2ABD6AE50036DD15 /* RawImageCell.swift */; };
 		14F370CF2ABD6D810036DD15 /* CustomAnimatedTranstioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F370CE2ABD6D810036DD15 /* CustomAnimatedTranstioning.swift */; };
 		14F370D12ABD77030036DD15 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F370D02ABD77030036DD15 /* SettingController.swift */; };
+		32A52EBA0FF4790EB0803497 /* Pods_LetvPosterExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A34C7308AA2910358BA5C7 /* Pods_LetvPosterExtension.framework */; };
 		D2DBCDD0F2FCE233F7F2CB34 /* Pods_Wallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34526041E9563A89307A22 /* Pods_Wallpaper.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1410D2022BA2E04B00009C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140C31552AB8501D002FBBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1410D1F42BA2E04000009C27;
+			remoteInfo = LetvPosterExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1410D2052BA2E04B00009C27 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1410D2042BA2E04B00009C27 /* LetvPosterExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1400AA992AC27965004D7AA0 /* HomeCollectionWebs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionWebs.swift; sourceTree = "<group>"; };
@@ -70,9 +110,19 @@
 		140C316E2AB85020002FBBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		140C31952AB85B6B002FBBA1 /* WallpaperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCell.swift; sourceTree = "<group>"; };
 		140C31972AB85B97002FBBA1 /* WallpaperCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpaperCell.xib; sourceTree = "<group>"; };
+		1410D1F52BA2E04000009C27 /* LetvPosterExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LetvPosterExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1410D1F62BA2E04000009C27 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1410D1F82BA2E04100009C27 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1410D1FB2BA2E04100009C27 /* LetvPosterBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetvPosterBundle.swift; sourceTree = "<group>"; };
+		1410D1FD2BA2E04100009C27 /* LetvPoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetvPoster.swift; sourceTree = "<group>"; };
+		1410D1FF2BA2E04B00009C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1410D2012BA2E04B00009C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14128CEE2AC54D100079EF86 /* UIButton+LargeClick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+LargeClick.swift"; sourceTree = "<group>"; };
 		141B405B2AC40E6E00789A9A /* HomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionView.swift; sourceTree = "<group>"; };
 		141B405D2AC421D000789A9A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		146285232BA3E3990088F08A /* WallpaperPosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperPosterData.swift; sourceTree = "<group>"; };
+		1462852B2BA3ED850088F08A /* WallpaperWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperWidgetView.swift; sourceTree = "<group>"; };
+		1462852D2BA3F37B0088F08A /* WallpaperPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperPostModel.swift; sourceTree = "<group>"; };
 		148E37952AB94A56005E88C6 /* RequestTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTool.swift; sourceTree = "<group>"; };
 		148E37972AB94D54005E88C6 /* ImageDownloadTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadTool.swift; sourceTree = "<group>"; };
 		148E37992AB94E40005E88C6 /* PhotoSaveTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSaveTool.swift; sourceTree = "<group>"; };
@@ -106,7 +156,10 @@
 		14F370CE2ABD6D810036DD15 /* CustomAnimatedTranstioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatedTranstioning.swift; sourceTree = "<group>"; };
 		14F370D02ABD77030036DD15 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		3B34526041E9563A89307A22 /* Pods_Wallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A34C7308AA2910358BA5C7 /* Pods_LetvPosterExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetvPosterExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAB25C99BE11D5B494344FC /* Pods-Wallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper.debug.xcconfig"; path = "Target Support Files/Pods-Wallpaper/Pods-Wallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1E1E1666AFD6C671D33893 /* Pods-LetvPosterExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetvPosterExtension.release.xcconfig"; path = "Target Support Files/Pods-LetvPosterExtension/Pods-LetvPosterExtension.release.xcconfig"; sourceTree = "<group>"; };
+		A1CE83DCD422FF140AF73ADC /* Pods-LetvPosterExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetvPosterExtension.debug.xcconfig"; path = "Target Support Files/Pods-LetvPosterExtension/Pods-LetvPosterExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		B69BEEC705FB4D28FD7867B2 /* Pods-Wallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper.release.xcconfig"; path = "Target Support Files/Pods-Wallpaper/Pods-Wallpaper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +172,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1410D1F22BA2E04000009C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1410D1F92BA2E04100009C27 /* SwiftUI.framework in Frameworks */,
+				1410D1F72BA2E04000009C27 /* WidgetKit.framework in Frameworks */,
+				32A52EBA0FF4790EB0803497 /* Pods_LetvPosterExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -126,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				140C315F2AB8501D002FBBA1 /* Wallpaper */,
+				1410D1FA2BA2E04100009C27 /* LetvPoster */,
 				140C315E2AB8501D002FBBA1 /* Products */,
 				EA9C7B04A325389564400B49 /* Pods */,
 				A2ED9296C37EC2B199948C41 /* Frameworks */,
@@ -136,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				140C315D2AB8501D002FBBA1 /* Wallpaper.app */,
+				1410D1F52BA2E04000009C27 /* LetvPosterExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +220,20 @@
 				140C316E2AB85020002FBBA1 /* Info.plist */,
 			);
 			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		1410D1FA2BA2E04100009C27 /* LetvPoster */ = {
+			isa = PBXGroup;
+			children = (
+				1410D1FB2BA2E04100009C27 /* LetvPosterBundle.swift */,
+				1410D1FD2BA2E04100009C27 /* LetvPoster.swift */,
+				146285232BA3E3990088F08A /* WallpaperPosterData.swift */,
+				1462852D2BA3F37B0088F08A /* WallpaperPostModel.swift */,
+				1462852B2BA3ED850088F08A /* WallpaperWidgetView.swift */,
+				1410D1FF2BA2E04B00009C27 /* Assets.xcassets */,
+				1410D2012BA2E04B00009C27 /* Info.plist */,
+			);
+			path = LetvPoster;
 			sourceTree = "<group>";
 		};
 		14128CED2AC545EE0079EF86 /* Account */ = {
@@ -262,6 +341,9 @@
 			isa = PBXGroup;
 			children = (
 				3B34526041E9563A89307A22 /* Pods_Wallpaper.framework */,
+				1410D1F62BA2E04000009C27 /* WidgetKit.framework */,
+				1410D1F82BA2E04100009C27 /* SwiftUI.framework */,
+				88A34C7308AA2910358BA5C7 /* Pods_LetvPosterExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -271,6 +353,8 @@
 			children = (
 				8CAB25C99BE11D5B494344FC /* Pods-Wallpaper.debug.xcconfig */,
 				B69BEEC705FB4D28FD7867B2 /* Pods-Wallpaper.release.xcconfig */,
+				A1CE83DCD422FF140AF73ADC /* Pods-LetvPosterExtension.debug.xcconfig */,
+				9F1E1E1666AFD6C671D33893 /* Pods-LetvPosterExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -287,15 +371,35 @@
 				140C315A2AB8501D002FBBA1 /* Frameworks */,
 				140C315B2AB8501D002FBBA1 /* Resources */,
 				E9FDEF01A02CF5A4625148FD /* [CP] Embed Pods Frameworks */,
+				1410D2052BA2E04B00009C27 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1410D2032BA2E04B00009C27 /* PBXTargetDependency */,
 			);
 			name = Wallpaper;
 			productName = Wallpaper;
 			productReference = 140C315D2AB8501D002FBBA1 /* Wallpaper.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1410D1F42BA2E04000009C27 /* LetvPosterExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1410D2082BA2E04B00009C27 /* Build configuration list for PBXNativeTarget "LetvPosterExtension" */;
+			buildPhases = (
+				5FDE9767BA321E0FB3AEFD51 /* [CP] Check Pods Manifest.lock */,
+				1410D1F12BA2E04000009C27 /* Sources */,
+				1410D1F22BA2E04000009C27 /* Frameworks */,
+				1410D1F32BA2E04000009C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetvPosterExtension;
+			productName = LetvPosterExtension;
+			productReference = 1410D1F52BA2E04000009C27 /* LetvPosterExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -304,11 +408,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					140C315C2AB8501D002FBBA1 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					1410D1F42BA2E04000009C27 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
@@ -326,6 +433,7 @@
 			projectRoot = "";
 			targets = (
 				140C315C2AB8501D002FBBA1 /* Wallpaper */,
+				1410D1F42BA2E04000009C27 /* LetvPosterExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -343,6 +451,14 @@
 				14B72FBC2AC18F370057715D /* websitetype_data.json in Resources */,
 				14B72FB22AC14DBD0057715D /* WebsiteTabViewCell.xib in Resources */,
 				1400AA9E2AC285A6004D7AA0 /* HomeWebCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1410D1F32BA2E04000009C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1410D2002BA2E04B00009C27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +481,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Wallpaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDE9767BA321E0FB3AEFD51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetvPosterExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -405,6 +543,7 @@
 				140C31652AB8501D002FBBA1 /* WallpaperController.swift in Sources */,
 				14B72FB42AC14E5D0057715D /* WebsiteCollectionViewCell.swift in Sources */,
 				1400AA9A2AC27965004D7AA0 /* HomeCollectionWebs.swift in Sources */,
+				146285302BA3F9820088F08A /* WallpaperPostModel.swift in Sources */,
 				148E379C2AB94F19005E88C6 /* WallpaperModel.swift in Sources */,
 				140C31612AB8501D002FBBA1 /* AppDelegate.swift in Sources */,
 				14BDBFEB2ABA898C0054D8D7 /* Api.swift in Sources */,
@@ -426,6 +565,7 @@
 				148E37982AB94D54005E88C6 /* ImageDownloadTool.swift in Sources */,
 				14B72FBA2AC189810057715D /* String+Help.swift in Sources */,
 				148E37A02AB94F7D005E88C6 /* DefaultsKeys+Help.swift in Sources */,
+				1462852F2BA3F9170088F08A /* WallpaperPosterData.swift in Sources */,
 				14F370CF2ABD6D810036DD15 /* CustomAnimatedTranstioning.swift in Sources */,
 				14BDBFF92ABACF6F0054D8D7 /* WallpaperAllController.swift in Sources */,
 				148E37A22AB94FB5005E88C6 /* ShowMessages.swift in Sources */,
@@ -436,7 +576,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1410D1F12BA2E04000009C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1410D1FC2BA2E04100009C27 /* LetvPosterBundle.swift in Sources */,
+				146285312BA400290088F08A /* ImageDownloadTool.swift in Sources */,
+				1462852A2BA3EC010088F08A /* RequestTool.swift in Sources */,
+				146285242BA3E3990088F08A /* WallpaperPosterData.swift in Sources */,
+				146285292BA3EBF80088F08A /* Api.swift in Sources */,
+				146285282BA3EBED0088F08A /* Date+Help.swift in Sources */,
+				1410D1FE2BA2E04100009C27 /* LetvPoster.swift in Sources */,
+				1462852E2BA3F37B0088F08A /* WallpaperPostModel.swift in Sources */,
+				1462852C2BA3ED850088F08A /* WallpaperWidgetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1410D2032BA2E04B00009C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1410D1F42BA2E04000009C27 /* LetvPosterExtension */;
+			targetProxy = 1410D2022BA2E04B00009C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		140C31662AB8501D002FBBA1 /* Main.storyboard */ = {
@@ -576,6 +740,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CAB25C99BE11D5B494344FC /* Pods-Wallpaper.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,7 +755,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,6 +776,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B69BEEC705FB4D28FD7867B2 /* Pods-Wallpaper.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -625,7 +791,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,6 +805,73 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1410D2062BA2E04B00009C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CE83DCD422FF140AF73ADC /* Pods-LetvPosterExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WA3N59CJW;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetvPoster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LetvPoster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yehwang.wallpaper.LetvPoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1410D2072BA2E04B00009C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1E1E1666AFD6C671D33893 /* Pods-LetvPosterExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WA3N59CJW;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetvPoster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LetvPoster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yehwang.wallpaper.LetvPoster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -659,6 +892,15 @@
 			buildConfigurations = (
 				140C31722AB85020002FBBA1 /* Debug */,
 				140C31732AB85020002FBBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1410D2082BA2E04B00009C27 /* Build configuration list for PBXNativeTarget "LetvPosterExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1410D2062BA2E04B00009C27 /* Debug */,
+				1410D2072BA2E04B00009C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

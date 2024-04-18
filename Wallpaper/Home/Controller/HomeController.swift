@@ -65,6 +65,8 @@ class HomeController: UIViewController {
         homeWallpaper()
         self.webView.register(UINib(nibName: "HomeWebCell", bundle: nil), forCellWithReuseIdentifier: "HomeWebCell")
         self.websReload()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(widgetKitHandel(noti:)), name: Notification.Name("WallpaperPosterData"), object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -200,6 +202,20 @@ class HomeController: UIViewController {
                     })
                 }
             }
+        }
+    }
+    
+    @objc func widgetKitHandel(noti: NSNotification) {
+        
+        if let info = noti.userInfo, let url = info["url"] as? String {
+            self.icon.setImage(fromURL: url, placeholder: UIImage(named: "cm2_fm_bg.jpg_unsliced"), forceTransition: true, keepCurrentImageWhileLoading: true, completionHandler:  { result in
+                switch result {
+                case .success(_):
+                    Defaults.homeWallpaper = url
+                case .failure:
+                    break
+                }
+            })
         }
     }
     
